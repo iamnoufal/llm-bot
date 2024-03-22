@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visual LLM Bot</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <h2 id="title">Visual LLM Bot</h2>
+    <video autoplay playsinline webkit-playsinline muted hidden></video>
+
+    <canvas id="canvas" width="640" height="480"></canvas>
+
+    <div id="instruction"><button id="startButton">Start</button>
+    </div>
+
+    <div id="promptOutput"></div>
+
+    <div id="debugImages" style="display:none;"></div>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
