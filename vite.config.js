@@ -5,4 +5,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["@google/generative-ai"],
   },
+  base: "https://project.noufal.dev/llm-bot/"
 });
